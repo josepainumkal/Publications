@@ -119,7 +119,7 @@ int main()
     int stopAllLoop=0;
 
 
-    while(fbest!=100 && stopAllLoop==0){
+    while(stopAllLoop==0){
         //sold=sbest;
         if(stopAllLoop==1){
           break;
