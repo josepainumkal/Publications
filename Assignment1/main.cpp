@@ -140,7 +140,7 @@ int main()
                 sold[j]=1;
                 for(int q=0;q<pow(2,10);q++){
                     addBinary(sold,add,sum);
-                    printArray(sold);
+                    //printArray(sold);
                     fnew =eval(sold);
                     if(fnew>=fbest){
                         fbest = fnew;
