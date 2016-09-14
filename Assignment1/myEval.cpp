@@ -26,9 +26,9 @@ double eval(int *vec){
 	}
 
 	if((sumOfZeroes+sumOfPrimeOnes)==100){
-          return 100; 
+           return 100; 
 	}else{
-		return 50;
+	   return 50;
 	}
 }
 
