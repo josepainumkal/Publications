@@ -16,6 +16,7 @@
 using namespace std;
 
 /*
+PMX Cross Over Operator :
 1. Randomly select a swath of alleles from parent 1 and copy them directly to the child. Note the indexes of the segment.
 2. Looking in the same segment positions in parent 2, select each value that hasn't already been copied to the child.
    A. For each of these values:
